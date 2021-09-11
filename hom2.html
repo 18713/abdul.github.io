@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset class="bbc">
+        <legend>Team and/owner view</legend>
+        <span>
+            <span>Reports</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span style="color: red;" >Settings</span>
+
+        </span>
+        
+        <div class="oppy">
+            <form action="#">
+                <h4>Q.what did you do today?</h4> <br>
+
+                <input type="text" class="in" placeholder="your answer">
+                <hr style="margin-left: 2.5%;" width="40%">
+                <span style="margin-left: 10px;"></span>
+        </div>
+        <div class="mpp">
+            <h4>Q.what will you do tomorrow? </h4> <br>
+            <input type="text" class="in" placeholder="your answer">
+            <hr style="margin-left: 2.5%;" width="40%">
+            <span style="margin-left: 10px; "></span>
+
+
+        </div>
+        <div class="lpp">
+            <h4>Q.Are there any blockers in your way? </h4> <br>
+            <input type="text" class="in" placeholder="your answer">
+
+            <hr style="margin-left: 2.5%;" width="40%">
+            <span style="margin-left: 10px;"></span>
+
+        </div>
+
+
+        <form action="http://www.example.com/bookings/" method="post" class="fu">
+            <p>Reminder Time:</p>
+            <label for="username"></label>
+            <input type="time" name="show" />
+
+        </form>
+
+        <form action="http://www.example.com/profile.php" ; class="ui">
+
+            <label>
+                <input type="checkbox" name="service" value="itunes" checked="checked" />
+                Exclude weekends
+
+            </label>
+
+
+        </form>
+<!-- save button -->
+        <div class="psl">
+            <input placeholder="Add Member" size="50" id="add2" class="in">
+            <hr style="margin-left: 2.5%;" width="40%">
+            <button onclick="func6()" >save botton </button>
+             <button onclick="delelteAll()" id="butt">cancle</button> 
+            
+        </div> 
+<!-- end save button -->
+
+        <div class="obc">
+            <input placeholder="enter to-do" id="add">
+            <button onclick="func5()">Add button</button>
+            <button onclick="delelteAll()">delete all</button>
+        </div>
+        <div>
+            <ul id="pass">
+    
+            </ul>
+        </div>
+     
+    </fieldset>
+
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
